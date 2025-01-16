@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h3>Imanas</h3>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about-me">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <p style="font-size: 30px;">Hello, my name is <span class="highlight-name">Imana</span></p>
+            <p>I study software engineering at the Polytechnic Faculty in Zenica.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" class="fb">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="insta">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="github">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="linkedin">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>        
+        </div>
+        <div class="me">
+            <img src="images/unnamed.jpg" alt="thatme">
+        </div>
+    </section>
+
+    <div class="gradient-transition"></div>
+
+    <section class="about-me" id="about-me">
+        <div class="about-me-container">
+            <div class="image-me">
+                <img src="images/imana3.jpg" alt="Imana Purić">
+            </div>
+            <div class="text-me">
+                <h2>About Me</h2>
+                <p>Hello! My name is Imana Purić. I live in Travnik and graduated from the "Mješovita srednja tehnička škola Travnik," where I specialized in Computer Engineering and Informatics. I have always been an excellent student, which motivated me to enroll at the Polytechnic Faculty in Zenica, majoring in Software Engineering. My goal is to become a Full Stack Developer, and I am actively working towards achieving this.</p>
+                <h3>My Experience</h3>
+                <p>I have hands-on experience with a range of technologies and tools:</p>
+                <ul>
+                    <li><strong>JavaScript:</strong> Developing interactive features and handling client-side logic.</li>
+                    <li><strong>HTML & CSS:</strong> Crafting responsive and visually appealing web pages.</li>
+                    <li><strong>React:</strong> Building dynamic and efficient user interfaces.</li>
+                    <li><strong>Git:</strong> Managing version control and collaborating on code with teams.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="projects">
+        <div class="tittle">My Projects</div>
+        <div class="project-div">
+            <div class="one">
+                <div class="box1">
+                    <img src="images/unnamed.png" alt="project1">
+                    <div class="text1">
+                        <h3>Bosnia Escape Haven</h3>
+                        <p>This is my first web design project. I used HTML, CSS, and React.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="two">
+                <div class="box2">
+                    <img src="images/Screenshot 2024-07-19 at 20.58.07.png" alt="project2">
+                    <div class="text2">
+                        <h3>Wiki.js</h3>
+                        <p>This is my project on operating systems. I used Wiki.js and Digital Ocean.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="tittle">Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+
+</body>
+</html>
